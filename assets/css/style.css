@@ -232,7 +232,7 @@ input[type=submit] {
 
 /* Media Queries */
 
-@media (max-width: 801px){
+@media (min-width: 547px) and (max-width: 801px){
 
   /* main containers */
 
@@ -260,7 +260,7 @@ input[type=submit] {
   }
 }
 
-@media (min-width: 480px) and (max-width: 546px) {
+@media (min-width: 481px) and (max-width: 546px) {
 
   #logo {
     float: left;
@@ -283,6 +283,7 @@ input[type=submit] {
   nav {
     padding-right: 9.2rem;
   }
+
 
   .main-section {
     width: 100%;
@@ -333,6 +334,10 @@ input[type=submit] {
     padding-right: 20%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  p {
+    /* float: left; */
   }
 
   /* Main Containers */
@@ -390,7 +395,7 @@ input[type=submit] {
 
   .auth-image {
     float: left;
-    width: 336px;
+    width: 100%;
     height: auto;
   }
 
